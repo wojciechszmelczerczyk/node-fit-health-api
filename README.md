@@ -2,7 +2,7 @@
 
 ## Description
 
-ChatGPT REST API.
+ChatGPT REST API for plants care.
 
 ## Table of contents
 
