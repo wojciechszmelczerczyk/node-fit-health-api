@@ -9,7 +9,39 @@ API for Fitness app.
 ## Table of contents
 
 - [Techstack](#techstack)
+- [Prerequisities](#prerequisities)
 
 ## Techstack
 
-- `node`
+- `Node`
+
+## Prerequisities
+
+- `Node` installed
+- `Clarifai` configured
+
+## To run 
+
+#### Clone repository
+
+```
+git clone https://github.com/wojciechszmelczerczyk/node-fit-health-api.git
+```
+
+#### Navigate to project
+
+```sh
+cd ./node-fit-health-api
+```
+
+#### Install dependencies
+
+```
+npm i
+```
+
+#### Run Express server
+
+```
+npm run start
+```
