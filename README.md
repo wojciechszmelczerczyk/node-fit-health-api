@@ -9,7 +9,8 @@ API for Fitness app.
 ## Table of contents
 
 - [Techstack](#techstack)
-- [Prerequisities](#prerequisities)
+- [Prerequisities](#prerequisities)\
+- [To run](#to-run)
 
 ## Techstack
 
