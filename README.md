@@ -1,7 +1,5 @@
 # Fit health API
 
-[![food-item-recognition](https://clarifai.com/clarifai/main/models/food-item-recognition/badge)](https://clarifai.com/clarifai/main/models/food-item-recognition)
-
 ## Description
 
 API for Fitness app.
@@ -11,6 +9,7 @@ API for Fitness app.
 - [Techstack](#techstack)
 - [Prerequisities](#prerequisities)
 - [To run](#to-run)
+- [Architecture](#architecture)
 
 ## Techstack
 
@@ -19,9 +18,9 @@ API for Fitness app.
 ## Prerequisities
 
 - `Node` installed
-- `Clarifai` configured
+- `OpenAI` configured
 
-## To run 
+## To run
 
 #### Clone repository
 
@@ -41,8 +40,36 @@ cd ./node-fit-health-api
 npm i
 ```
 
+#### Setup env variables
+
+<details>
+<summary>env</summary>
+
+```dockerfile
+
+# OpenAI
+
+OPENAI_API_KEY=
+
+
+```
+
+</details>
+
 #### Run Express server
 
 ```
 npm run start
 ```
+
+## Architecture
+
+Server side architecture use `OpenAI text completion` for chatbot implementation.
+
+Server communicate with third party API. Server architecture style is `REST`.
+
+<details>
+<summary>architecture</summary>
+<img src="./.github/img/backend-arch.png">
+
+</details>

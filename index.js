@@ -1,9 +1,8 @@
 const { config } = require("dotenv");
 const express = require("express");
 var cors = require("cors");
-const {
-  predictImageController,
-} = require("./controllers/predictImageController");
+const { chatbotController } = require("./controllers/chatbotController");
+
 config();
 
 const app = express();
@@ -14,6 +13,6 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.post("/", predictImageController);
+app.post("/message", chatbotController);
 
 app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
