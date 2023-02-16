@@ -2,7 +2,11 @@
 
 ## Description
 
-API for Fitness app.
+API for [Fitness app](https://github.com/wojciechszmelczerczyk/fit-health-app).
+
+## App status
+
+Not Finished [❌]
 
 ## Table of contents
 
