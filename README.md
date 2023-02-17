@@ -14,6 +14,7 @@ Not Finished [❌]
 - [Prerequisities](#prerequisities)
 - [To run](#to-run)
 - [Architecture](#architecture)
+- [REST endpoints](#rest-endpoints)
 
 ## Techstack
 
@@ -77,3 +78,9 @@ Server communicate with third party API. Server architecture style is `REST`.
 <img src="./.github/img/backend-arch.png">
 
 </details>
+
+## Endpoints
+
+| Method |               Endpoint               |
+| :----: | :----------------------------------: |
+|  POST  | [`/message`](./docs/post-message.md) |
