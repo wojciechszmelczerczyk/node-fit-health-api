@@ -14,7 +14,7 @@ Not Finished [❌]
 - [Prerequisities](#prerequisities)
 - [To run](#to-run)
 - [Architecture](#architecture)
-- [REST endpoints](#rest-endpoints)
+- [Endpoints](#endpoints)
 
 ## Techstack
 
