@@ -69,7 +69,7 @@ npm run start
 
 ## Architecture
 
-Server side architecture use `OpenAI text completion` for chatbot implementation.
+Server side architecture use `OpenAI ChatGPT` for chatbot implementation.
 
 Server communicate with third party API. Server architecture style is `REST`.
 
